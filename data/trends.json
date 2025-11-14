@@ -5,13 +5,12 @@
   },
   "top_positive_entities": [
     { "name": "Gemini", "count": 232 },
-    { "name": "ChatGPT", "count": 142 },
+    { "name": "ChatGPT", "count": 199 },
     { "name": "Google", "count": 119 },
     { "name": "Grok", "count": 106 },
     { "name": "Deepseek", "count": 97 },
     { "name": "Claude", "count": 86 },
     { "name": "Siri", "count": 84 },
-    { "name": "GPT", "count": 57 },
     { "name": "Copilot", "count": 27 }
   ]
 }
