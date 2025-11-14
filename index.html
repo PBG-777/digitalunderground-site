@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Digital Underground AI – Trend Intelligence</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="page">
+      <header class="hero">
+        <div class="hero-content">
+          <h1>Digital Underground <span>AI</span></h1>
+          <p class="subtitle">
+            We analyze thousands of AI-related comments to uncover the hidden
+            pulse of the internet – for creators, investors and builders.
+          </p>
+          <div class="hero-actions">
+            <a href="#demo" class="btn-primary">View sample insights</a>
+            <a href="#about" class="btn-ghost">Learn more</a>
+          </div>
+        </div>
+      </header>
+
+      <main>
+        <section id="demo" class="section section-dark">
+          <h2>Sample AI Trend Snapshot</h2>
+          <p class="section-text">
+            This is a static preview of what Digital Underground AI will show in real-time:
+          </p>
+
+          <div class="cards">
+            <div class="card">
+              <h3>Top 5 AI Models (mentions)</h3>
+              <ul class="list">
+                <li><span>Gemini</span><span>250 positive</span></li>
+                <li><span>ChatGPT</span><span>190 positive</span></li>
+                <li><span>Claude</span><span>130 positive</span></li>
+                <li><span>DeepSeek</span><span>95 positive</span></li>
+                <li><span>Grok</span><span>80 positive</span></li>
+              </ul>
+            </div>
+            <div class="card">
+              <h3>Sentiment Overview</h3>
+              <div class="bar-chart">
+                <div class="bar bar-pos" style="--value: 78%">Positive 78%</div>
+                <div class="bar bar-neu" style="--value: 15%">Neutral 15%</div>
+                <div class="bar bar-neg" style="--value: 7%">Negative 7%</div>
+              </div>
+              <p class="hint">
+                (Mock data – will later come live from your Python pipeline.)
+              </p>
+            </div>
+            <div class="card">
+              <h3>Why it matters</h3>
+              <p>
+                Know which models are gaining trust, which tools creators actually love,
+                and where the next hype wave starts long before the headlines.
+              </p>
+            </div>
+          </div>
+        </section>
+
+        <section id="about" class="section">
+          <h2>What is Digital Underground AI?</h2>
+          <p class="section-text">
+            Digital Underground AI is an experimental trend-intelligence engine
+            built in Germany. It tracks AI conversations across social platforms
+            and turns raw comments into signals for creators and investors.
+          </p>
+          <p class="section-text">
+            This is an early prototype. The full version will connect a Python-based
+            NLP pipeline (NER + Sentiment + Clustering) with this dashboard.
+          </p>
+        </section>
+      </main>
+
+      <footer class="footer">
+        <p>© <span id="year"></span> Digital Underground AI · Built in Germany</p>
+      </footer>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
