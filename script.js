@@ -18,8 +18,8 @@ function updateMeta(meta, topN) {
     if (!metaBox) return;
 
     metaBox.innerHTML = `
-        <p><strong>Analysierte Kommentare:</strong> ${meta.comments_analyzed}</p>
-        <p><strong>Top N:</strong> ${topN}</p>
+        <p><strong>Analyzed comments:</strong> ${meta.comments_analyzed}</p>
+        <p><strong> Trending Mentions :</strong> ${topN}</p>
     `;
 }
 
