@@ -4,65 +4,14 @@
     "top_n": 15
   },
   "top_positive_entities": [
-    {
-      "name": "Gemini",
-      "count": 232
-    },
-    {
-      "name": "Apple",
-      "count": 202
-    },
-    {
-      "name": "ChatGPT",
-      "count": 142
-    },
-    {
-      "name": "Google",
-      "count": 119
-    },
-    {
-      "name": "Grok",
-      "count": 106
-    },
-    {
-      "name": "Deepseek",
-      "count": 97
-    },
-    {
-      "name": "Claude",
-      "count": 86
-    },
-    {
-      "name": "Siri",
-      "count": 84
-    },
-    {
-      "name": "iPhone",
-      "count": 68
-    },
-    {
-      "name": "GPT",
-      "count": 57
-    },
-    {
-      "name": "Android",
-      "count": 36
-    },
-    {
-      "name": "Sabine",
-      "count": 33
-    },
-    {
-      "name": "Duolingo",
-      "count": 30
-    },
-    {
-      "name": "US",
-      "count": 29
-    },
-    {
-      "name": "Copilot",
-      "count": 27
-    }
+    { "name": "Gemini", "count": 232 },
+    { "name": "ChatGPT", "count": 142 },
+    { "name": "Google", "count": 119 },
+    { "name": "Grok", "count": 106 },
+    { "name": "Deepseek", "count": 97 },
+    { "name": "Claude", "count": 86 },
+    { "name": "Siri", "count": 84 },
+    { "name": "GPT", "count": 57 },
+    { "name": "Copilot", "count": 27 }
   ]
 }
