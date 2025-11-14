@@ -16,7 +16,7 @@
             pulse of the internet – for creators, investors and builders.
           </p>
           <div class="hero-actions">
-            <a href="#demo" class="btn-primary">View sample insights</a>
+            <a href="#demo" class="btn-primary">View insights</a>
             <a href="#about" class="btn-ghost">Learn more</a>
           </div>
         </div>
@@ -24,38 +24,35 @@
 
       <main>
         <section id="demo" class="section section-dark">
-          <h2>Sample AI Trend Snapshot</h2>
+          <h2>AI Trend Snapshot</h2>
           <p class="section-text">
-            This is a static preview of what Digital Underground AI will show in real-time:
+            These insights come directly from the Digital Underground AI pipeline, analyzing real YouTube comment data.
           </p>
 
           <div class="cards">
+
+            <!-- CARD 1: META -->
             <div class="card">
-              <h3>Top 5 AI Models (mentions)</h3>
-              <ul class="list">
-                <li><span>Gemini</span><span>250 positive</span></li>
-                <li><span>ChatGPT</span><span>190 positive</span></li>
-                <li><span>Claude</span><span>130 positive</span></li>
-                <li><span>DeepSeek</span><span>95 positive</span></li>
-                <li><span>Grok</span><span>80 positive</span></li>
+              <h3>Analysis Overview</h3>
+              <div id="meta-box" class="meta-box">
+                <!-- Wird durch script.js dynamisch gefüllt -->
+              </div>
+            </div>
+
+            <!-- CARD 2: TOP ENTITIES -->
+            <div class="card">
+              <h3>Top Positive AI Mentions</h3>
+              <ul id="top-entities-list" class="list">
+                <!-- Wird dynamisch gefüllt -->
               </ul>
             </div>
-            <div class="card">
-              <h3>Sentiment Overview</h3>
-              <div class="bar-chart">
-                <div class="bar bar-pos" style="--value: 78%">Positive 78%</div>
-                <div class="bar bar-neu" style="--value: 15%">Neutral 15%</div>
-                <div class="bar bar-neg" style="--value: 7%">Negative 7%</div>
-              </div>
-              <p class="hint">
-                (Mock data – will later come live from your Python pipeline.)
-              </p>
-            </div>
+
+            <!-- CARD 3: WHY IT MATTERS -->
             <div class="card">
               <h3>Why it matters</h3>
               <p>
-                Know which models are gaining trust, which tools creators actually love,
-                and where the next hype wave starts long before the headlines.
+                Understand which AI models, tools or companies creators trust the most.
+                These signals reveal early hype, sentiment shifts, and growing interest across platforms.
               </p>
             </div>
           </div>
@@ -69,8 +66,8 @@
             and turns raw comments into signals for creators and investors.
           </p>
           <p class="section-text">
-            This is an early prototype. The full version will connect a Python-based
-            NLP pipeline (NER + Sentiment + Clustering) with this dashboard.
+            This early prototype connects a Python-based NLP pipeline (NER + Sentiment)
+            to a real-time dashboard through JSON exports.
           </p>
         </section>
       </main>
